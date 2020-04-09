@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54ccbe16-d94c-4438-a866-65e0e1d1697d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="a2" />
+  </component>
+  <component name="ProjectId" id="1ZotUt43UJZoA8pW2ge7boXt0Ui" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="a2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word2vec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.word2vec" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54ccbe16-d94c-4438-a866-65e0e1d1697d" name="Default Changelist" comment="" />
+      <created>1585517294278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585517294278</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="51" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1586412017588">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="304" y="51" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586412017588" />
+    <state width="1419" height="192" key="GridCell.Tab.0.bottom" timestamp="1586416194798">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1899" height="121" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586212286313" />
+    <state width="1419" height="192" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586416194798" />
+    <state width="1419" height="192" key="GridCell.Tab.0.center" timestamp="1586416194797">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1899" height="121" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586212286311" />
+    <state width="1419" height="192" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586416194797" />
+    <state width="1419" height="192" key="GridCell.Tab.0.left" timestamp="1586416194796">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1899" height="121" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586212286310" />
+    <state width="1419" height="192" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586416194796" />
+    <state width="1419" height="192" key="GridCell.Tab.0.right" timestamp="1586416194797">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1899" height="121" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586212286312" />
+    <state width="1419" height="192" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586416194797" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1586412203174">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1585978522596" />
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586412203174" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586384780208">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1586384780208" />
+    <state x="384" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585970509816">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="384" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585970509816" />
+    <state x="376" y="61" width="687" height="777" key="find.popup" timestamp="1586416293618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="376" y="61" width="687" height="777" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1586416293618" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585521220719">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585521220719" />
+  </component>
+</project>
