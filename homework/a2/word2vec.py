@@ -116,18 +116,21 @@ def negSamplingLossAndGradient(
     indices = [outsideWordIdx] + negSampleWordIndices
 
     ### YOUR CODE HERE (~10 Lines)
-    outsideVector = outsideVectors[negSampleWordIndices]
-    scoreTruePair = sigmoid(np.dot(outsideVector, centerWordVec))
-    scoreNegativePairs = sigmoid(np.dot(outsideVectors[negSampleWordIndices], centerWordVec))
+    trueOutsideVector = outsideVectors[outsideWordIdx]
+    negOutsideVectors = outsideVectors[negSampleWordIndices]
+
+    scoreTruePair = sigmoid(np.dot(trueOutsideVector, centerWordVec))
+    scoreNegativePairs = sigmoid(-np.dot(negOutsideVectors, centerWordVec))
+
     loss = -np.log(scoreTruePair) - np.sum(np.log(scoreNegativePairs), axis=0)
-    print((1 - scoreNegativePairs)[:, np.newaxis].shape)
-    print(outsideVectors[negSampleWordIndices].shape)
-    gradCenterVec = (scoreTruePair - 1) * outsideVector + np.sum(
-        (1 - scoreNegativePairs)[:, np.newaxis] * outsideVectors[negSampleWordIndices], axis=0)
+
+    gradCenterVec = (scoreTruePair - 1) * trueOutsideVector + np.sum(
+        (1 - scoreNegativePairs)[:, np.newaxis] * negOutsideVectors, axis=0)
+
     gradOutsideVecs = np.zeros_like(outsideVectors)
-    gradOutsideVecs[outsideWordIdx] = (sigmoid(np.dot(outsideVector, centerWordVec)) - 1) * centerWordVec
+    gradOutsideVecs[outsideWordIdx] = (sigmoid(np.dot(trueOutsideVector, centerWordVec)) - 1) * centerWordVec
     for i in negSampleWordIndices:
-        gradOutsideVecs[i] += (1 - sigmoid(np.dot(outsideVectors[i], centerWordVec))) * centerWordVec
+        gradOutsideVecs[i] += (1 - sigmoid(-np.dot(outsideVectors[i], centerWordVec))) * centerWordVec
 
     ### Please use your implementation of sigmoid in here.
 
